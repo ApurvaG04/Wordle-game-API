@@ -64,7 +64,7 @@ async def getScoreUpdate():
     if not(auth):
         abort(401, "Please provide the username")
     username = auth.username
-    httpx.post('https://127.0.0.1:5100/game/updates', data={"URL":URL, "username":username})
+    httpx.post('http://127.0.0.1:5100/game/updates', data={"URL":URL, "username":username})
 
     # while registering send callback URL
     #You can construct the callback URL from the PORT environment variable and socket.getfqdn().
