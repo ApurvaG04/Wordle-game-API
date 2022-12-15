@@ -14885,6 +14885,13 @@ CREATE TABLE "game"(
     FOREIGN KEY(wordId) REFERENCES correct(id)
 );
 
+
+DROP TABLE IF EXISTS "listen";
+CREATE TABLE "listen"(
+	username TEXT PRIMARY KEY,
+	callbackURL URL DEFAULT null
+);
+
 CREATE INDEX correct_idx_00017a64 ON correct(word);
 CREATE INDEX valid_idx_00017a64 ON valid(word);
 CREATE INDEX game_idx_25674218 ON game(username);
