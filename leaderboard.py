@@ -70,7 +70,7 @@ async def getScoreUpdate():
     #You can construct the callback URL from the PORT environment variable and socket.getfqdn().
     # send http req to game service using httpx and send URL
     
-    return {"message": "leaderboard reset"},200
+    return {"message": "registered for score updates successfully!!"}, 200
 
 @app.route("/scoreupdates/reply", methods=["POST"])
 async def scoreResponse():
