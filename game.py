@@ -299,7 +299,7 @@ async def getScore():
         VALUES(:username, :URL)
         """,
         data)
-
+    return {"message": "leaderboard reset"},200
 
 
 # game
