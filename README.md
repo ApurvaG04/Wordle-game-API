@@ -1,10 +1,4 @@
-# CPSC-449-Web Backend Engineering:Project-4
-# Project Members:
-
-1. Apurva Umakant Gawande
-2. Hardik Vagrecha
-3. Apeksha Shah
-4. Maria Ortega
+# Wordle game API
 
 # Project description: 
 
